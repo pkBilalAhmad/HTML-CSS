@@ -1,0 +1,40 @@
+
+#content{
+    width: 70%;
+    margin: auto;
+}
+#aside{
+    background-color: aliceblue;
+    width: 20%;
+    float: left;
+}
+#aside ul{
+    background-color: aliceblue;
+    
+}
+#aside ul li{
+    list-style-type: none;
+    
+}
+#aside ul li:nth-child(2n){
+    background-color: lightgreen;
+}
+#aside ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    display: block;
+}
+#aside ul li a:hover{
+    background-color: darkblue;
+    color: white;
+}
+#section{
+    width: 80%;
+    background-color: white;
+    float: left;
+    min-height: 700px;
+}
+#section div{
+    padding: 15px;
+}
