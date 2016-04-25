@@ -51,7 +51,12 @@ body{
     padding: 12px 30px;
     color: white;
     display: block;
+    transition-duration: 0.5s;
     
+}
+#nav div ul li.active{
+    background-color: blue;
+    color: white;
 }
 
 #nav div ul li a:hover{

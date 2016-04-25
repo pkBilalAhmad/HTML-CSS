@@ -1,0 +1,178 @@
+#menu ul{
+    list-style-type: none;
+    background-color: darkgray;
+ }
+ #menu ul li a{
+     font-size: 120%;
+    text-decoration: none;
+    padding: 12px 20px;
+    display: block;
+    color: white;
+        transition-duration: 0.3s;
+ }
+ 
+ #menu ul li a:hover{
+     background-color: white;
+     color: black;
+ }
+ hr{
+     width: 5px red;
+ }
+ ul li ul{
+     position: absolute;
+     display: none;
+     transition-duration: 0.3s;
+    
+ }
+ ul li ul li a{
+     width: 250px;    
+     background-color:  darkslategrey;
+     color: white;
+     margin-left: 30px;
+ }
+ ul li:hover ul{
+     display: block;
+     box-shadow: 10px 10px 16px gray;
+
+ }
+ #formelelist{
+     width: 30%;
+     float: right;
+     border: 1px solid black;
+     box-shadow: 10px 10px 15px darkgray;
+     border-radius: 5px;
+     
+     
+ }
+ #formelelist ul{
+     font-size: 120%;
+     background-color: black;
+     color: white;
+ }
+ #formelelist ul li{
+     padding-left: 10px;
+     padding: 10px;
+     font-size: 20px;
+         transition-duration: 0.4s;
+
+ }
+ #formelelist ul li:nth-child(even){
+     background-color: green;
+     color: white;
+     
+ }
+ 
+ #formelelist ul li:hover{
+     background-color: white;
+     color: black;
+     cursor: pointer;
+ }
+ 
+ .h{
+     width: 90%;
+     margin: auto;
+     background-color: azure;
+     border: 1px solid blue;
+     border-radius: 8px;
+     padding: 15px;
+     box-shadow: 10px 10px 15px gray;
+ }
+ .c{
+     width: 90%;
+     margin: auto;
+     padding: 15px;
+     box-shadow: 10px 10px 15px gray;
+     border: 1px solid black;
+     border-radius: 8px;
+     margin-top: 15px;
+ }
+ fieldset{
+     padding: 15px;  
+     border-radius: 15px; 
+ }
+ input,select,option,textarea,button,keygen,fieldset,legend{
+       padding-left: 10px;
+         padding-right: 10px;
+ }
+#attlist{
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px grey;    
+    height: 500px;
+    margin-top:15px;
+    margin-left: 10px;
+    background-color: rgb(38,38,38);
+}
+#attdata{
+    width: 65%;
+    float: left;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px grey;    
+    margin-top:15px;
+    
+    padding: 10px;
+    margin-left: 10px;
+}
+#attlist ul{
+   
+}
+#attlist ul li{
+    padding: 10px ;
+    color: white;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: 120%;
+    transition-duration: 0.3s;
+
+}
+#attlist ul li:hover{
+    background-color: #99ff00;
+    color: black;
+    
+}
+input, select,button,textarea{
+    padding: 10px;
+    width: 50%;
+    background-color: green;
+    color: white;
+    transition-duration: 0.3s;
+    
+}
+input,textarea,select{
+    background-color: green;
+    color: white;
+        transition-duration: 0.3s;
+}
+input,textarea,select:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 4px 4px 4px gray;
+}
+input[type="text"]{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    transition-duration: 0.3s;
+}
+input[type="text"]:hover{
+    background-color: white;
+    color: black;   
+        box-shadow: 2px 2px 2px 2px gray;
+
+}
+button:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+    background-color: white;
+    color: black;
+}
+textarea{
+    background-color: lightgray;
+    color: black;
+}   
+textarea:focus{
+    background-color: white;
+    color: blue;
+}
